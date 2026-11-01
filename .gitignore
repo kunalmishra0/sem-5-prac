@@ -1,0 +1,11 @@
+# Ignore compiled binaries and temporary files
+*.exe
+*.obj
+*.o
+*.out
+*.class
+*.pyc
+__pycache__/
+.DS_Store
+Thumbs.db
+.vscode/
