@@ -1,5 +1,4 @@
-
-cat("[REDACTED] [REDACTED]\n")
+# AIM: To draw a bar chart, box plot, pie chart, dot plot and scatter plot.
 
 # 1. Bar Plot
 sales <- c(120, 150, 90, 200)

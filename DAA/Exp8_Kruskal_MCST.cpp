@@ -1,3 +1,5 @@
+/* AIM: WAP to implement a graph using a 2D array and obtain the Min. Cost Spanning Tree using Kruskal's Greedy algo. */
+
 #include <iostream>
 #include <algorithm>
 using namespace std;
@@ -49,7 +51,6 @@ bool compareEdges(Edge a, Edge b)
 
 int main()
 {
-    cout << "[REDACTED] [REDACTED]\n";
 
     int n;
     int graph[MAX][MAX];
@@ -138,3 +139,4 @@ int main()
 
     return 0;
 }
+

@@ -1,4 +1,4 @@
-/* AIM:- To find a number in an array using the Binary Search method. */
+/* AIM: To find a number in an array using Binary search method. */
 
 #include <stdio.h>
 int binarySearch(int arr[], int n, int key)
@@ -18,7 +18,6 @@ int binarySearch(int arr[], int n, int key)
 }
 int main()
 {
-    printf("[REDACTED] [REDACTED]\n");
     int n, key;
     printf("Enter number of elements: ");
     scanf("%d", &n);
@@ -37,3 +36,4 @@ int main()
         printf("Element not found\n");
     return 0;
 }
+

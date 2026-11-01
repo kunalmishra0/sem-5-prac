@@ -1,4 +1,4 @@
-cat("\n [REDACTED] [REDACTED] \n")
+# AIM: Control structures and functions - Fibonacci series (iterative & recursive).
 
 cat("Enter the number of terms: ")
 n <- as.integer(readLines("stdin", n = 1))

@@ -1,7 +1,4 @@
-# Practical 4: Vectors, Matrices, Lists, Data Frames and Functions
-
-cat("[REDACTED] [REDACTED]\n")
-
+# AIM: WAP to implement vectors, matrices, list, dataframes and functions (Comprehensive).
 
 # a)	Create a Vector in R, Access Vector Elements in R, Modify Vector Element, create a Sequence of Number in R, Repeat Vectors in R, Loop Over a R Vector, Length of Vector in R.
 

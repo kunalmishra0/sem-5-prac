@@ -1,4 +1,5 @@
-# Exp 7: write a Program to create basic plots( scatter and bar graph ) using ggplot2.
+# AIM: WAP to create basic plots (scatter and bar graph) using ggplot2.
+
 install.packages("ggplot2", repos = "https://cloud.r-project.org")
 library(ggplot2)
 df <- data.frame(

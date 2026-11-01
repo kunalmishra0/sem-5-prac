@@ -1,6 +1,4 @@
-# Practical 5: Importing data files
-
-cat("[REDACTED] [REDACTED]\n")
+# AIM: WAP to import data files: eg .xlsx, .txt, .csv
 
 # Import CSV file
 cat("\n--- CSV File ---\n")

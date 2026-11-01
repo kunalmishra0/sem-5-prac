@@ -1,6 +1,4 @@
-# Practical 3: Loop Functions, Date and Time
-
-cat("[REDACTED] [REDACTED]\n")
+# AIM: Loop functions, date and time.
 
 # Create a vector of dates
 dates <- as.Date(c("2026-01-10", "2026-02-15", "2026-03-20",

@@ -1,8 +1,8 @@
-// WAP for 2 matrix multiplication using Strasson's Algorithm.
+/* AIM: WAP to multiply 2 matrices using Strassen's Matrix multiplication algorithm. */
+
 #include <stdio.h>
 int main()
 {
-    printf("[REDACTED] [REDACTED]\n");
 
     int A[2][2], B[2][2], C[2][2];
     int m1, m2, m3, m4, m5, m6, m7;

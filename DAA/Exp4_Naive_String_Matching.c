@@ -1,5 +1,4 @@
-/* AIM:-To find the occurrence of a pattern string in a given text string
-using the Naive String Matching algorithm. */
+/* AIM: To find the occurrence of a pattern string using Naive String algorithm. */
 
 #include <stdio.h>
 #include <string.h>
@@ -27,7 +26,6 @@ void naiveSearch(char text[], char pattern[])
 }
 int main()
 {
-    printf("[REDACTED] [REDACTED]\n");
     char text[100], pattern[100];
     printf("Enter text: ");
     fgets(text, sizeof(text), stdin);
@@ -39,3 +37,4 @@ int main()
     naiveSearch(text, pattern);
     return 0;
 }
+

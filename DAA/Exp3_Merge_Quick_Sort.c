@@ -1,5 +1,4 @@
-/* AIM:- To sort a set of numbers using (i) Merge Sort and (ii) Quick
-Sort using the Divide and Conquer method. */
+/* AIM: To sort a set of numbers using Merge Sort and Quick Sort using Divide and Conquer method. */
 
 #include <stdio.h>
 void merge(int arr[], int low, int mid, int high)
@@ -66,7 +65,6 @@ void display(int arr[], int n)
 }
 int main()
 {
-    printf("[REDACTED] [REDACTED]\n");
     int n, choice;
     printf("1. Merge Sort\n");
     printf("2. Quick Sort\n");
@@ -93,3 +91,4 @@ int main()
     display(arr, n);
     return 0;
 }
+

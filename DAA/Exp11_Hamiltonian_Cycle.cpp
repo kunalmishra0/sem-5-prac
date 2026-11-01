@@ -1,3 +1,5 @@
+/* AIM: WAP to find Hamiltonian cycle in a graph using the backtracking problem. */
+
 #include <iostream>
 using namespace std;
 
@@ -51,7 +53,6 @@ bool hamiltonianCycle(int pos)
 
 int main()
 {
-    cout << "[REDACTED] [REDACTED]" << endl;
 
     cout << "Enter the number of vertices (maximum 10): ";
     cin >> n;
@@ -97,3 +98,4 @@ int main()
 
     return 0;
 }
+

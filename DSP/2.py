@@ -27,7 +27,7 @@ print("Reversed:", numbers)
 
 print("Count of 2:", numbers.count(2))
 
-student = ("Kunal", 21, "CSE")
+student = ("Student", 21, "CSE")
 
 print("Tuple:", student)
 print("Name:", student[0])
@@ -40,7 +40,7 @@ name, age, branch = student
 print(name, age, branch)
 
 student = {
-    "name": "Kunal",
+    "name": "Student",
     "age": 21,
     "branch": "CSE"
 }

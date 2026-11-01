@@ -1,6 +1,7 @@
+# AIM: WAP to implement data frames - creation, summary, manipulation.
+
 # 4(b) Data Frames
 
-cat("[REDACTED] [REDACTED]\n")
 
 Data_Frame <- data.frame(
   Training = c("Strength", "Stamina", "Other"),

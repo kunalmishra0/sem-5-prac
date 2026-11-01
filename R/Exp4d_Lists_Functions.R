@@ -1,9 +1,10 @@
+# AIM: WAP to implement lists and user-defined functions.
+
 # 4(d) Lists and Functions
 
-cat("[REDACTED] [REDACTED]\n")
 
 mylist <- list(
-  name = "Kunal",
+  name = "Student",
   age = 20,
   marks = c(85, 90, 88),
   passed = TRUE

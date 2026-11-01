@@ -1,4 +1,5 @@
-# EXP 6 - write a program to compute the mean median and mode of a given numerical vector data
+# AIM: WAP to compute the mean, median and mode of a given numerical vector data.
+
 # CODE :
 # Create a numerical vector
 data_vec <- c(12, 15, 12, 18, 20, 15, 12, 22)
@@ -14,7 +15,6 @@ get_mode <- function(x) {
 # Calculate Mode
 mode_val <- get_mode(data_vec)
 # Display results
-cat("[REDACTED] [REDACTED]\n")
 cat("Mean:", mean_val, "\n")
 cat("Median:", median_val, "\n")
 cat("Mode:", mode_val, "\n")

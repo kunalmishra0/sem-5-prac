@@ -1,3 +1,5 @@
+# AIM: Basic Calculator using Control Flow and Functions.
+
 calculator <- function(a, b, operator) {
   if (operator == "+") {
     result <- a + b

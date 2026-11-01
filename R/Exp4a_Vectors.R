@@ -1,6 +1,7 @@
+# AIM: WAP to implement vectors - creation, access, slicing, sequences.
+
 # 4(a) Vectors
 
-cat("[REDACTED] [REDACTED]\n")
 
 employees <- c("Sabby", "Cathy", "Lucy")
 print(employees)

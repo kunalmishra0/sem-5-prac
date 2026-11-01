@@ -1,4 +1,3 @@
-print("[REDACTED] [REDACTED]")
 
 # Raw customer transaction data
 

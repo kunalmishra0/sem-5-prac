@@ -45,7 +45,6 @@ class SavingsAccount(BankAccount):
 account = SavingsAccount("Alice", 1000.00)
 
 # Utilizing Abstraction
-print ("\n[REDACTED] [REDACTED]\n")
 account.deposit(500)
 account.withdraw(200)
 print(f"Current Balance: ${account.get_balance():.2f}")

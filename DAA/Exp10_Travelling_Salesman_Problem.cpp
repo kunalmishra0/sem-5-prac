@@ -1,3 +1,5 @@
+/* AIM: Solve the Travelling Salesman problem (TSP) w/ recursion & backtracking to find the min travelling cost. */
+
 #include <iostream>
 #include <climits>
 using namespace std;
@@ -37,7 +39,6 @@ void tsp(int city, int count, int totalCost, int start)
 
 int main()
 {
-    cout << "[REDACTED] [REDACTED]" << endl;
 
     cout << "Enter the number of cities: ";
     cin >> n;
@@ -79,4 +80,5 @@ int main()
 
     return 0;
 }
+
 

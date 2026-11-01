@@ -1,8 +1,7 @@
-#WA to perform simple linear regression and corelation analysis between two numeric variables.
+# AIM: WAP to perform linear regression and numeric correlation analysis between two variables.
 
 hours <- c(1, 2, 3, 4, 5, 6, 7)
 Marks <- c(35, 40, 45, 50, 55, 60, 70)
-cat("[REDACTED] [REDACTED]\n")
 
 Correlation <- cor(hours, Marks)
 cat("Correlation Co-efficient:", Correlation, "\n")

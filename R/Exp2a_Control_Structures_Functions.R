@@ -1,5 +1,5 @@
-# User-defined functions and lexical scoping
-cat("\n [REDACTED] [REDACTED] \n")
+# AIM: Learn the control structures, functions, scoping rules.
+
 check_number <- function(x) {
   if (x > 0)
     cat("positive \n")

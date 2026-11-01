@@ -1,3 +1,5 @@
+/* AIM: WAP to sort numbers in ascending/descending order using different sorting algorithms, also calculate time complexity and plot a graph. */
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
@@ -158,7 +160,6 @@ int main()
 
     srand((unsigned int)time(NULL));
 
-    printf("\n[REDACTED] [REDACTED] 5AIMLB\n\n");
 
     printf("============================================\n");
     printf("     SORTING ALGORITHMS - STEP COUNT\n");
@@ -231,4 +232,5 @@ int main()
 
     return 0;
 }
+
 
