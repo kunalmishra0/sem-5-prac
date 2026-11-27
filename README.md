@@ -1,6 +1,6 @@
 # Semester 5 Practical Repository (sem-5-prac)
 
-This repository contains clean, organized laboratory experiment codes and datasets for **Design and Analysis of Algorithms (DAA)**, **R Programming (R)**, and **Data Science Practicals (DSP)**.
+This repository contains clean, organized laboratory experiment codes and datasets for **Design and Analysis of Algorithms (DAA)**, **R Programming (R)**, and **Machine Learning / Data Science Practicals (ML & DSP)**.
 
 ---
 
@@ -45,8 +45,12 @@ All programs include an AIM comment header directly matching the practical sylla
 | **6** | WAP to solve Knapsack problem using Greedy Algorithm | [`DAA/Exp6_Greedy_Knapsack.c`](DAA/Exp6_Greedy_Knapsack.c) |
 | **7** | WAP to solve Job Scheduling problem with deadline using Greedy algorithm | [`DAA/Exp7_Job_Scheduling_Deadline.c`](DAA/Exp7_Job_Scheduling_Deadline.c) |
 | **8** | WAP to implement a graph using a 2D array and obtain Min. Cost Spanning Tree using Kruskal's Greedy algorithm | [`DAA/Exp8_Kruskal_MCST.cpp`](DAA/Exp8_Kruskal_MCST.cpp) |
-| **10** | Solve the Travelling Salesman Problem (TSP) with recursion & backtracking to find minimum travelling cost | [`DAA/Exp10_Travelling_Salesman_Problem.cpp`](DAA/Exp10_Travelling_Salesman_Problem.cpp) |
+| **9** | To implement Bellman-Ford algorithm to find single-source shortest path and detect negative weight cycles | [`DAA/Exp9_Bellman_Ford_Algorithm.c`](DAA/Exp9_Bellman_Ford_Algorithm.c) |
+| **10** | Solve the Travelling Salesman Problem (TSP) with recursion & backtracking to find minimum travelling cost | [`DAA/Exp10_Travelling_Salesman_Problem.cpp`](DAA/Exp10_Travelling_Salesman_Problem.cpp) / [`.c`](DAA/Exp10_Travelling_Salesman_Problem.c) |
 | **11** | WAP to find Hamiltonian Cycle in a graph using backtracking algorithm | [`DAA/Exp11_Hamiltonian_Cycle.cpp`](DAA/Exp11_Hamiltonian_Cycle.cpp) |
+| **12** | Construct an Optimal Binary Search Tree (OBST) using Dynamic Programming | [`DAA/Exp12_Optimal_Binary_Search_Tree.cpp`](DAA/Exp12_Optimal_Binary_Search_Tree.cpp) |
+| **13** | Solve the 0/1 Knapsack Problem using Dynamic Programming | [`DAA/Exp13_01_Knapsack_Dynamic_Programming.cpp`](DAA/Exp13_01_Knapsack_Dynamic_Programming.cpp) |
+| **14** | Find and display all subsets of distinct positive integers equal to target using Backtracking | [`DAA/Exp14_Sum_Of_Subsets_Backtracking.cpp`](DAA/Exp14_Sum_Of_Subsets_Backtracking.cpp) |
 
 ---
 
@@ -58,6 +62,7 @@ All R scripts have been mapped to their respective lab index experiments with ai
 |:---:|:---|:---|
 | **1** | Basics of R, R data types and objects, reading & writing data | [`R/Exp1a_Basics_Data_Types.R`](R/Exp1a_Basics_Data_Types.R) |
 | **1 (Ext)** | Basic Calculator using Control Flow and Functions | [`R/Exp1b_Basic_Calculator.R`](R/Exp1b_Basic_Calculator.R) |
+| **1 (Ext)** | Basic Operations, Data Structures (vectors, matrices, lists, factors, data frames) & CSV I/O | [`R/Exp1c_Basic_Operations_Data_Structures.R`](R/Exp1c_Basic_Operations_Data_Structures.R) |
 | **2** | Learn the control structures, functions, scoping rules | [`R/Exp2a_Control_Structures_Functions.R`](R/Exp2a_Control_Structures_Functions.R) |
 | **2 (Ext)** | Control structures and functions - Fibonacci series (iterative & recursive) | [`R/Exp2b_Fibonacci_Series.R`](R/Exp2b_Fibonacci_Series.R) |
 | **3** | Loop functions, date and time (`lapply`, `sapply`, `tapply`, date diff) | [`R/Exp3_Loop_Functions_Date_Time.R`](R/Exp3_Loop_Functions_Date_Time.R) |
@@ -69,6 +74,7 @@ All R scripts have been mapped to their respective lab index experiments with ai
 | **5** | WAP to import data files (e.g., `.xlsx`, `.txt`, `.csv`) | [`R/5/Exp5_Importing_Data_Files.R`](R/5/Exp5_Importing_Data_Files.R) |
 | **6** | WAP to compute the mean, median and mode of a given numerical vector data | [`R/Exp6_Mean_Median_Mode.R`](R/Exp6_Mean_Median_Mode.R) |
 | **7** | WAP to create basic plots (scatter and bar graph) using `ggplot2` | [`R/Exp7_Ggplot2_Visualizations.R`](R/Exp7_Ggplot2_Visualizations.R) |
+| **7 (Ext)** | Advanced Data Visualizations with `ggplot2` (scatter, bar, line, histogram, box plot) | [`R/Exp7b_Ggplot2_Data_Visualizations.R`](R/Exp7b_Ggplot2_Data_Visualizations.R) |
 | **8** | WAP to perform linear regression and numeric correlation analysis between two variables | [`R/Exp8_Linear_Regression_Correlation.R`](R/Exp8_Linear_Regression_Correlation.R) |
 | **9** | To draw a bar chart, box plot, pie chart, dot plot and scatter plot | [`R/Exp9_Base_R_Statistical_Plots.R`](R/Exp9_Base_R_Statistical_Plots.R) |
 
@@ -76,16 +82,22 @@ All R scripts have been mapped to their respective lab index experiments with ai
 
 ---
 
-### 3. Data Science Practicals (DSP)
+### 3. Machine Learning & Data Science Practicals (ML & DSP)
 
 | Topic / Experiment | File Path |
 |:---|:---|
-| Built-in Data Types & Operations (Strings, Lists, Tuples, Dicts, Sets) | [`DSP/1.py`](DSP/1.py) |
-| String, List, Tuple and Dictionary Manipulation | [`DSP/2.py`](DSP/2.py) |
+| Python Basics, Strings, Lists, Tuples, Dictionaries, Sets | [`DSP/1.py`](DSP/1.py), [`DSP/2.py`](DSP/2.py), [`ML/1.py`](ML/1.py) |
 | Object-Oriented Programming (Abstraction, Encapsulation, Inheritance) | [`DSP/3.py`](DSP/3.py) |
 | Data Processing & Aggregations | [`DSP/4.py`](DSP/4.py) |
-| Classification Models and Sampling Notebook | [`DSP/Experiment_7_Classification_Models_and_Sampling.ipynb`](DSP/Experiment_7_Classification_Models_and_Sampling.ipynb) |
-| Feature Engineering Final Practical Notebook | [`DSP/Practical_8_Feature_Engineering_Final.ipynb`](DSP/Practical_8_Feature_Engineering_Final.ipynb) |
+| Data Preprocessing on Titanic Dataset | [`ML/4/Experiment_4_Titanic_Preprocessing.ipynb`](ML/4/Experiment_4_Titanic_Preprocessing.ipynb) |
+| Data Visualization with Seaborn | [`ML/5/Experiment_5_Titanic_Seaborn.ipynb`](ML/5/Experiment_5_Titanic_Seaborn.ipynb) |
+| Linear Regression on Placement Dataset | [`ML/7/7Linear_Regression_Placement.ipynb`](ML/7/7Linear_Regression_Placement.ipynb) |
+| Naive Bayes Classifier on Mushroom Dataset | [`ML/Practical_9_Naive_Bayes_Mushroom.ipynb`](ML/Practical_9_Naive_Bayes_Mushroom.ipynb) |
+| K-Means Clustering on Wine Dataset | [`ML/Practical_11_KMeans_Wine_Dataset.ipynb`](ML/Practical_11_KMeans_Wine_Dataset.ipynb) |
+| ID3 Decision Tree on Play Tennis Dataset | [`ML/ML_Practical_12_ID3_Play_Tennis_Updated.ipynb`](ML/ML_Practical_12_ID3_Play_Tennis_Updated.ipynb) |
+| K-Nearest Neighbors (KNN) on Iris Dataset | [`ML/ML_Practical_13_KNN_Iris.ipynb`](ML/ML_Practical_13_KNN_Iris.ipynb) |
+| Stock Price Prediction (NIFTY 50) | [`ML/ML_Practical_14_NIFTY_50_Stock_Prediction.ipynb`](ML/ML_Practical_14_NIFTY_50_Stock_Prediction.ipynb) |
+| Recommendation System | [`ML/ML_Practical_15_Movie_Recommendation_System.ipynb`](ML/ML_Practical_15_Movie_Recommendation_System.ipynb) |
 
 ---
 
@@ -98,9 +110,9 @@ Compile any C/C++ program using `gcc` or `g++`:
 gcc DAA/Exp1_Sorting_Time_Complexity.c -o Exp1
 ./Exp1
 
-# Example for Exp 8 (C++):
-g++ DAA/Exp8_Kruskal_MCST.cpp -o Exp8
-./Exp8
+# Example for Exp 12 (C++):
+g++ DAA/Exp12_Optimal_Binary_Search_Tree.cpp -o Exp12
+./Exp12
 ```
 
 ### R Scripts
